@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kana Quiz Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Kana Quiz</h1>
+
+        <!-- Quiz Options to Select Hiragana, Katakana, Kanji -->
+        <div id="quiz-options">
+            <button id="hiragana-btn" class="btn">Hiragana Quiz</button>
+            <button id="katakana-btn" class="btn">Katakana Quiz</button>
+            <button id="kanji-btn" class="btn">Kanji Quiz</button>
+        </div>
+
+        <!-- Question Container -->
+        <div id="question-container" class="hide">
+            <div id="question">What is this kana?</div>
+
+            <!-- Input for user answer -->
+            <input type="text" id="answer-input" placeholder="Enter your answer" class="hide">
+            <button id="submit-answer" class="btn hide">Submit Answer</button>
+            <button id="show-answer" class="btn hide">Show Answer</button>
+            <button id="go-back" class="btn hide">Back to Main</button>
+        </div>
+
+        <!-- Next Button -->
+        <div class="controls hide" id="next-container">
+            <button id="next-btn" class="btn">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
