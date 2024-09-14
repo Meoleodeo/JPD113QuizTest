@@ -1,7 +1,9 @@
 # JPD113QuizTest
-> [Description](#description) | [down source](#to-clone) | | [Screenshot Demo](#screenshot) | [Main Features include](#main-features-include)
+> [Description](#description) | [Try](#try-on-browser) | [down source](#to-clone) | | [Screenshot Demo](#screenshot) | [Main Features include](#main-features-include)
 ## Description:
 - Quiz Hiragana, Katakana, Kanji
+## Try on browser:
+- [here](https://meoleodeo.github.io/JPD113QuizTest/)
 ## To clone:
 ```bash
 git clone https://github.com/Meoleodeo/Blue-Main-Character
